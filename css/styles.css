@@ -1,0 +1,80 @@
+Body {
+  background-color: #D8EEED;
+  font-family: Helvetica;
+  background-image: url("bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: solid;
+  border-bottom-color: yellow;
+  border-width: 5px;
+  width: 50%;
+  opacity: 80;
+  transition-duration: 0.5s;
+}
+
+hr:hover {
+  width: 70%;
+}
+
+h1 {
+  font-family: "Audiowide";
+  color: #6E85B7;
+  text-decoration: underline #898AA6 dotted;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px #6E85B7;
+}
+
+h3 {
+  font-family: "Audiowide";
+  color: #66BFBF;
+  text-shadow: 1px 1px 5px #66BFBF;
+  text-indent: 5px;
+}
+
+.KPS {
+  font-size: 30px;
+}
+
+a {
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  font-size: 110%;
+  font-style: italic;
+}
+
+.button {
+  background-color: green;
+  padding: 12px 28px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: green;
+  padding: 13px 29px;
+  font-size: 21px;
+}
+
+.work td, th {
+  border-bottom: 2px solid grey;
+  padding: 8px;
+}
+.head:hover{
+  background-color: pink;
+}
+.work tr:hover {
+  cursor: default;
+  background-color: gold;
+}
